@@ -54,7 +54,8 @@ jobs:
             pwd
             ls
             cd .circleci/ansible
-            ansible-playbook -i inventory main.yml
+            ls
+            # ansible-playbook -i inventory main.yml
 # Sequential workflow
 workflows:
   # Name the workflow
