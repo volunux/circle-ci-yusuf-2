@@ -76,3 +76,8 @@
   become: true
   become_method: sudo
   command: "pm2 start /home/ubuntu/web/index.js -f"
+
+- name: "check pm2"
+  become: true
+  become_method: sudo
+  command: "pm2 status"
