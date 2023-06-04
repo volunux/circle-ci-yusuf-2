@@ -26,6 +26,7 @@ jobs:
         - run:
             name: Create Cloudformation Stack
             command: |
+              ls
               aws cloudformation deploy \
                 --template-file template.yml \
                 --stack-name myStack-${CIRCLE_WORKFLOW_ID:0:5} \
