@@ -45,6 +45,7 @@ jobs:
             apk add --update ansible
             ansible --version
             ansible-playbook --version
+            echo "Hello World"
       # - run:
       #     name: Run Playbook and Configure server 1
       #     command: |
