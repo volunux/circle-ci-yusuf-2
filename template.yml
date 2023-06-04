@@ -13,8 +13,8 @@ Resources:
           ToPort: '22'
           CidrIp: 0.0.0.0/0 
         - IpProtocol: tcp
-          FromPort: '3000'
-          ToPort: '3000'
+          FromPort: '7000'
+          ToPort: '7000'
           CidrIp: 0.0.0.0/0 
   EC2Instance:
     Type: 'AWS::EC2::Instance'
