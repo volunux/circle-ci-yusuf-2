@@ -86,7 +86,7 @@ jobs:
 # Exercise: Smoke Testing
   smoke_test2:
     docker:
-      - image: aws-cli
+      - image: amazon/aws-cli
     steps:
       - run:
           name: Test job
