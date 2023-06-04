@@ -99,9 +99,9 @@ workflows:
   myWorkflow:
     jobs:
       - myjob1
-      - create_infrastructure
+      # - create_infrastructure
       # - configure_infrastructure
-  # smokeTestWorkflow:
-  #   jobs:
-  #     # - smoke_test
-  #     - smoke_test2
+  smokeTestWorkflow:
+    jobs:
+      # - smoke_test
+      - smoke_test2
