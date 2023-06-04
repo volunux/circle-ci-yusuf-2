@@ -46,10 +46,10 @@ jobs:
             ansible --version
             ansible-playbook --version
             echo "Hello World"
-      # - run:
-      #     name: Run Playbook and Configure server 1
-      #     command: |
-      #       ansible-playbook -i inventory main.yml
+      - run:
+          name: Run Playbook and Configure server 1
+          command: |
+            ansible-playbook -i inventory main.yml
 # Sequential workflow
 workflows:
   # Name the workflow
